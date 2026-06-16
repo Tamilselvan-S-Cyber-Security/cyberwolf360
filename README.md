@@ -52,53 +52,6 @@ Cyber Wolf security services combine manual expert analysis with automated tooli
 
 ---
 
-## Project Structure
-
-```
-cyberwolf360-github-website/
-├── index.html              # Homepage
-├── services.html           # Services overview
-├── compliance.html         # Compliance overview
-├── getting-started.html    # FAQ & learning guide
-├── tools.html              # 76+ curated security tools
-├── css/
-│   └── styles.css          # Global styles
-├── js/
-│   └── main.js             # Navigation, dropdowns, theme toggle
-├── logo/
-│   └── cyberwolf-logo-DbrojaJC.png
-├── services/               # 24 individual service pages
-│   ├── web-vapt.html
-│   ├── mobile-vapt.html
-│   └── ...
-├── compliance/             # 18 individual compliance pages
-│   ├── iso-27001.html
-│   ├── gdpr.html
-│   └── ...
-└── scripts/                # Page generation & update utilities
-    ├── generate-pages.py
-    ├── generate-tools.py
-    ├── update-tools-html.py
-    ├── update-logo.py
-    ├── update-site-domain.py
-    └── fix-favicon-paths.py
-```
-
----
-
-## Website Pages
-
-| Page | URL Path | Description |
-|------|----------|-------------|
-| Home | `/` | Overview, core services, methodology |
-| Services | `/services.html` | All 24 services in 3 categories |
-| Compliance | `/compliance.html` | All 18 compliance frameworks |
-| Getting Started | `/getting-started.html` | FAQ, CTF info, bug bounty guide |
-| Tools | `/tools.html` | 76 tools across 10 categories |
-| Service detail | `/services/{slug}.html` | Individual service pages |
-| Compliance detail | `/compliance/{slug}.html` | Individual framework pages |
-
----
 
 ## Services
 
